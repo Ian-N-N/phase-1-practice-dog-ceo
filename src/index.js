@@ -36,7 +36,7 @@ function renderBreedList(breeds){
         li.style.cursor = "pointer";
 
         //on click, change text color
-        li.addEventListener("change", () =>{
+        li.addEventListener("click", () =>{
         li.style.color = "red";
                
         })
