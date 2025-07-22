@@ -37,7 +37,7 @@ function renderBreedList(breeds){
 
         //on click, change text color
         li.addEventListener("change", () =>{
-        li.style.color = "teal";
+        li.style.color = "red";
                
         })
         breedList.appendChild(li);
